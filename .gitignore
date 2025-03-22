@@ -1,0 +1,44 @@
+# Ignore build and dependency directories
+bin/
+obj/
+node_modules/
+dist/
+coverage/
+
+# User-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.vs
+*.dbmdl
+*.log
+*.bak
+
+# Package lock files (optional, depends on your workflow)
+package-lock.json
+yarn.lock
+
+# ASP.NET Core environment and secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Logs and temporary files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IIS and deployment-related files
+*.publishsettings
+*.pfx
+.DS_Store
+
+# Angular specific files
+.angular/
+.angular/cache/
+
+# Auto-generated files
+wwwroot/lib/
